@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 124 124"
+   version="1.1"
+   id="svg2395"
+   sodipodi:docname="instagram.svg"
+   width="124"
+   height="124"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2399" />
+  <sodipodi:namedview
+     id="namedview2397"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false" />
+  <circle
+     style="opacity:0.964449;fill:#029bd7;fill-opacity:1;stroke-width:9.82677;stroke-linecap:round;paint-order:stroke markers fill"
+     id="path2820"
+     cx="62"
+     cy="62"
+     r="62" />
+  <path
+     d="m 45.009074,21.545428 h 33.98184 c 12.945483,0 23.463666,10.518184 23.463666,23.46365 V 78.990922 A 23.463656,23.463656 0 0 1 78.990914,102.45457 h -33.98184 c -12.94546,0 -23.46365,-10.518182 -23.46365,-23.463648 V 45.009078 a 23.463656,23.463656 0 0 1 23.46365,-23.46365 m -0.80909,8.09091 a 14.563648,14.563648 0 0 0 -14.56365,14.563648 v 35.600029 c 0,8.050461 6.51319,14.563648 14.56365,14.563648 h 35.60002 A 14.563648,14.563648 0 0 0 94.363664,79.800015 V 44.199986 c 0,-8.050461 -6.513187,-14.563648 -14.56366,-14.563648 h -35.60002 m 39.038673,6.068187 a 5.0568223,5.0568223 0 0 1 5.05682,5.056822 5.0568223,5.0568223 0 0 1 -5.05682,5.056822 5.0568223,5.0568223 0 0 1 -5.056833,-5.056822 5.0568223,5.0568223 0 0 1 5.056833,-5.056822 M 61.999994,41.772712 A 20.227289,20.227289 0 0 1 82.227297,62 20.227289,20.227289 0 0 1 61.999994,82.227289 20.227289,20.227289 0 0 1 41.772714,62 20.227289,20.227289 0 0 1 61.999994,41.772712 m 0,8.090915 A 12.136374,12.136374 0 0 0 49.863634,62 12.136374,12.136374 0 0 0 61.999994,74.136373 12.136374,12.136374 0 0 0 74.136374,62 12.136374,12.136374 0 0 0 61.999994,49.863627 Z"
+     id="path2393"
+     style="fill:#ffffff;stroke-width:4.04546" />
+</svg>
