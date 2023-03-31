@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      :root {
+        --blue: #029bd7;
+        --purple: #564895;
+        --blue-king: #092355;
+        --orange: #ff6600;
+        --hard-blue: #1148a8;
+        --rose: #fe2672;
+        --gray: #b2b3b3;
+        --sm: 14px;
+        --md: 16px;
+        --lg: 18px;
+      }
+      body {
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "Quicksand", sans-serif;
+        background: var(--blue-king);
+      }
+      .left-footer-container {
+        display: flex;
+        justify-content: space-between;
+      }
+      .left-footer {
+        display: flex;
+        align-items: center;
+      }
+      #qrback {
+        background-color: #ffff;
+        height: 1;
+        margin: 0;
+        padding-left: 75px;
+        padding-right: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        line-height: 10px;
+      }
+      .qrlogo {
+        background-color: white;
+      }
+      .logogob {
+        height: 75px;
+      }
+      .middle-footer-container {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+      }
+      .middle-footer-container p {
+        margin: 5px;
+      }
+      .main-text {
+        font-weight: bold;
+        color: white;
+        font-size: 14px;
+      }
+      .info {
+        border-bottom: 1px solid #fff;
+      }
+      .info :nth-child(2) {
+        color: #ffff;
+        font-size: 10px;
+      }
+      #diferente {
+        border-bottom: 0px;
+      }
+      .right-footer-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-right: 100px;
+      }
+      .right-footer-container p:nth-child(1){
+        color: white;
+        font-weight: bold;
+        margin: 0;
+      }
+      .right-footer-container p:nth-child(2){
+        color: white;        
+      }
+      .navbar-display {
+        display: flex;
+        text-decoration: none;
+        list-style: none;
+        gap: 25px;
+      }
+      
+      .navbar-display li img {
+        height: 35px;
+        width: 35px;
+      }
+      ul{
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="left-footer-container">
+      <div class="left-footer">
+        <figure id="qrback">
+          <img
+            class="qrlogo"
+            src="https://raw.githubusercontent.com/Maxiferado/IconosGObNorteDeSantader/b7420df34bff36ef8c2df857a28e4c8b92e395d3/IconosSvg/qrgob.svg"
+            alt="QR_Gobernacion"
+          />
+        </figure>
+        <figure>
+          <img
+            class="logogob"
+            src="https://raw.githubusercontent.com/Maxiferado/IconosGObNorteDeSantader/b7420df34bff36ef8c2df857a28e4c8b92e395d3/IconosSvg/gobernacionLogoBlanco.svg"
+            alt="Logo Gobernacion"
+          />
+        </figure>
+      </div>
+      <div class="middle-footer-container">
+        <div class="info">
+          <p class="main-text">Dirección:</p>
+          <p>
+            AVENIDA 5 CALLES 13 Y 14<br />
+            PALACIO DE LA GOBERNACIÓN<br />San josé de Cúcuta / Norte de
+            Santander
+          </p>
+        </div>
+        <div class="info">
+          <p class="main-text">PBX:</p>
+          <p class="2text">
+            (+7) 575 56 56<br />
+            (+7) 571 02 90<br />
+            (+7) 571 05 90<br />
+          </p>
+        </div>
+        <div class="info" id="diferente">
+          <p class="main-text">e-mail:</p>
+          <p>gobernacion@nortedesantander.gov.co</p>
+        </div>
+      </div>
+      <div class="right-footer-container">
+        <p>Siguenos en</p>
+        <p>nuestras redes sociales</p>
+        <div>
+          <ul class="navbar-display">
+            <li class="navbar-email">
+              <a href="https://www.instagram.com/gobernorte"
+                ><img
+                  src="https://raw.githubusercontent.com/Maxiferado/IconosGObNorteDeSantader/4d8654ca286c5ae7bbc99450a5e87a4afb3bc94c/IconosSvg/instaLogo.svg"
+                  alt="instagram"
+              /></a>
+            </li>
+            <li class="navbar-email">
+              <a href="https://www.facebook.com/GobernaciondeNortedeSantander"
+                ><img
+                  src="https://raw.githubusercontent.com/Maxiferado/IconosGObNorteDeSantader/4d8654ca286c5ae7bbc99450a5e87a4afb3bc94c/IconosSvg/face.svg"
+                  alt="facebook"
+              /></a>
+            </li>
+            <li class="navbar-email">
+              <a href="https://twitter.com/GoberNorte"
+                ><img
+                  src="https://raw.githubusercontent.com/Maxiferado/IconosGObNorteDeSantader/4d8654ca286c5ae7bbc99450a5e87a4afb3bc94c/IconosSvg/twitter.svg"
+                  alt="twitter"
+              /></a>
+            </li>
+            <li class="navbar-email">
+              <a href="https://www.youtube.com/@GobernacionNortedeSantander"
+                ><img
+                  src="https://raw.githubusercontent.com/Maxiferado/IconosGObNorteDeSantader/4d8654ca286c5ae7bbc99450a5e87a4afb3bc94c/IconosSvg/youtube.svg"
+                  alt="youtube"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
