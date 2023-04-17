@@ -4,50 +4,102 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      type="module"
+      src="https://js.arcgis.com/calcite-components/1.2.0/calcite.esm.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://js.arcgis.com/calcite-components/1.2.0/calcite.css"
+    />
     <title>Document</title>
-    <style>
-      .button-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
-        width: 100%;
-        margin-top: 10px;
+    <style>      
+    :root {
+        --blue: #029bd7;
+        --purple: #564895;
+        --blue-king: #092355;
+        --orange: #ff6600;
+        --hard-blue: #1148a8;
+        --rose: #fe2672;
+        --gray: #b2b3b3;
+        --sm: 14px;
+        --md: 16px;
+        --lg: 18px;
       }
-      .button {
-        background-color: #FF8504;
-        border: 0px;
-        border-radius: 3px;
-        color: white;
-        cursor: pointer;
-        height: 30px;
-        padding: 0 10px;
-        margin: 0 38px;
-      }
-      .button:hover {
-        background-color: #da1c5d;
-      }
-      .main_b {
-        width: 500px;
-        font-size: 25px;
-      }
-      .category-panel a,
-      .category-panel a:hover,
-      .category-panel a:focus {
-        color: #FF8504;
-      }
+    .button-container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: aqua;      
+      gap: 10px;
+    }
+    .big-button{
+      padding: 20px 500px;
+      cursor: pointer;
+      background-color: var(--blue-king);
+      border: 0;
+      border-radius: 5px;
+    }
+    .big-button:hover{
+      background-color: var(--blue);
+    }
+    .big-button a{
+      font-size: 20px;
+      font-weight: bold;
+      text-decoration: none;
+      color: white;
+    }
+    .row-2{
+      display: flex;
+      width: 1194px;
+      align-items: center;
+      justify-content: space-around;    
+      background-color: #fe2672;            
+    }
+    .row-2 button{
+      padding: 10px 100px;
+      cursor: pointer;
+      background-color: var(--blue-king);
+      border: 0;
+      border-radius: 5px;
+    }
+    .row-2 button:hover{
+      background-color: var(--blue);
+    }
+    .row-2 button a{
+      font-size: 20px;
+      font-weight: bold;
+      text-decoration: none;
+      color: white;
+    }
     </style>
   </head>
-  <body>
+  <body>    
     <div class="button-container">
       <div class="row-1">
-        <button class="button main_b">GEO-VISOR</button>
+        <button class="big-button"><a href="https://signortedesantander-gobernacindendes.hub.arcgis.com/">GeoVisor</a></button>       
       </div>
-      <div class="row-2">
-        <button class="button">DATOS A</button>
-        <button class="button">GEO-SERVICIOS</button>
-        <button class="button">MAPOTECA</button>
+      <div class="row-2" style="color: white;">
+        <button><a href="https://signortedesantander-gobernacindendes.hub.arcgis.com/">Datos</a></button>       
+        <button><a href="https://signortedesantander-gobernacindendes.hub.arcgis.com/">GeoServicios</a></button>       
+        <button><a href="https://signortedesantander-gobernacindendes.hub.arcgis.com/">Mapoteca</a></button>       
       </div>
     </div>
   </body>
 </html>
+Evaluaciones agropecuarias municipales 
+Años 2019, 2021 y 2022
+
+Información resultado de los datos reportados a nivel municipal, correspondientes a las áreas sembradas, cosechas, producción y rendimiento semestral de cultivos transitorios y cultivos permanentes.
+
+Información resultado de los datos reportados a nivel municipal, correspondientes a inventarios pecuarios y sacrificio de bovinos y porcinos. Así como, la consolidación de información de referencia de fuentes gremiales.
+
+
+<h3 style="color: black;">Evaluaciones agropecuarias municipales</h3>
+<h4 style="color: black;">Años 2019, 2021 y 2022</h4>
+<h5 style="color: black;">"Ideas para Gobernar Norte de Santander" es una publicación realizada por la Cámara de Comercio de Cúcuta, con el objetivo de proponer ideas concretas para mejorar la gestión pública y el desarrollo de la región. Las propuestas incluyen desde la creación de nuevas políticas públicas hasta la implementación de proyectos específicos, y se enfocan en temas clave como la competitividad, la inclusión social y la sostenibilidad ambiental. El libro es una herramienta para incentivar la participación ciudadana y la colaboración entre diferentes sectores en la construcción de un Norte de Santander más próspero y equitativo.</h5>
+
+<h1 id="our-community" style="color: #333;">Proyectos</h1>
+
