@@ -32,6 +32,26 @@
         display: flex;
         align-items: center;
       }
+      .left-footer::after {   
+        content: "";
+        width: 215px;
+        height: 1px;
+        position: absolute;
+        top: 15%;
+        left: 5%;
+        background-color: #fff;
+        border-bottom: 1px solid #ffff;
+      }
+      .left-footer::before {   
+        content: "www.nortedesantander.gov.co";
+        font-weight: bold;
+        color: #fff;
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        top: 16%;
+        left: 5%;        
+      }
       #qrback {
         background-color: #ffff;
         height: 1;
@@ -47,6 +67,7 @@
       }
       .logogob {
         height: 75px;
+        padding-left: 15%;
       }
       .middle-footer-container {
         display: flex;
@@ -71,20 +92,20 @@
       #diferente {
         border-bottom: 0px;
       }
-      .right-footer-container{
+      .right-footer-container {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         padding-right: 100px;
       }
-      .right-footer-container p:nth-child(1){
+      .right-footer-container p:nth-child(1) {
         color: white;
         font-weight: bold;
         margin: 0;
       }
-      .right-footer-container p:nth-child(2){
-        color: white;        
+      .right-footer-container p:nth-child(2) {
+        color: white;
       }
       .navbar-display {
         display: flex;
@@ -92,13 +113,14 @@
         list-style: none;
         gap: 25px;
       }
-      
+
       .navbar-display li img {
         height: 35px;
         width: 35px;
       }
-      ul{
+      ul {
         padding: 0;
+        padding-left: 10px;
       }
     </style>
   </head>

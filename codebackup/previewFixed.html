@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    body {
+      margin: 0;
+      box-sizing: border-box;
+      font-family: "Quicksand", sans-serif;
+      background-color: black;
+    }
+    .masterContinerGalery {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      width: 100vw;
+      gap: 25px;
+    }
+    .cardBody {
+      width: 200px;
+      height: 200px;
+      background-color: #4e95d7ff;
+      position: relative;
+      border-radius: 5%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .cardBody::after {
+      content: " ";
+      position: absolute;
+      top: 0;
+      right: 0;
+      border-top: 40px solid #3b7fc9ff;
+      border-left: 150px solid transparent;
+      border-radius: 0px 10px 0 0;
+    }
+    .cardBody2 {
+      width: 200px;
+      height: 200px;
+      background-color: #f47216ff;
+      position: relative;
+      border-radius: 5%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .cardBody2::after {
+      content: " ";
+      position: absolute;
+      top: 0;
+      right: 0;
+      border-top: 40px solid #f2581aff;
+      border-left: 150px solid transparent;
+      border-radius: 0px 10px 0 0;
+    }
+
+    .cardBody3 {
+      width: 200px;
+      height: 200px;
+      background-color: #2e3192ff;
+      position: relative;
+      border-radius: 5%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .cardBody3::after {
+      content: " ";
+      position: absolute;
+      top: 0;
+      right: 0;
+      border-top: 40px solid #2a2e73ff;
+      border-left: 150px solid transparent;
+      border-radius: 0px 10px 0 0;
+    }
+    .textoCardInfo {
+      font-size: 13px;
+      margin: 0;
+      text-align: center;
+      color: #fff;
+    }
+    .imgContainerx {
+      display: flex;
+      justify-content: center;
+    }
+    .cardBody button {
+      background-color: #f47216ff;
+      border: none;
+      color: #fff;
+      font-weight: bold;
+      border-radius: 5px;
+      padding: 2px 15px;
+      cursor: pointer;
+    }
+    .cardBody2 button {
+      background-color: #2e3192ff;
+      border: none;
+      color: #fff;
+      font-weight: bold;
+      border-radius: 5px;
+      padding: 2px 15px;
+      cursor: pointer;
+    }
+    .cardBody3 button {
+      background-color: #f2581aff;
+      border: none;
+      color: #fff;
+      font-weight: bold;
+      border-radius: 5px;
+      padding: 2px 15px;
+      cursor: pointer;
+    }
+    .linksMapas {
+      display: flex;
+      justify-content: center;
+      margin-top: 5px;
+      text-decoration: none;
+      cursor: pointer;
+    }
+  </style>
+  <body>
+    <div class="masterContinerGalery">
+      <div class="cardBody">
+        <figure class="imgContainerx">
+          <img
+            src="https://raw.githubusercontent.com/Maxiferado/IconosGObNorteDeSantader/41362c48ed1530277148db2954070f2a6fb816b1/IconosSvg/nortedesantanderBlueSoft.svg"
+            alt="Mapa norte de santander"
+          />
+        </figure>
+        <p class="textoCardInfo">
+          <b>Mapa Subregional </b> y <b>Municipal</b> de Norte de Santander
+        </p>
+        <a class="linksMapas"
+          href="https://signds-oxygeno-sas.hub.arcgis.com/maps/fb42ffab99264e6f977b56b85add573b/explore?location=7.979789%2C-72.708974%2C8.82"
+        >
+          <button>Explora</button>
+        </a>
+      </div>
+      <div class="cardBody2">
+        <figure class="imgContainerx">
+          <img
+            src="https://raw.githubusercontent.com/Maxiferado/IconosGObNorteDeSantader/41362c48ed1530277148db2954070f2a6fb816b1/IconosSvg/nortedesantanderOrangeSoft.svg"
+            alt="Mapa norte de santander"
+          />
+        </figure>
+        <p class="textoCardInfo"><b>Municipios</b> de Norte de Santander</p>
+        <a class="linksMapas"
+          href="https://signds-oxygeno-sas.hub.arcgis.com/apps/2ddef79b5c274c83950379cb45dff97b/explore"
+        >
+          <button>Explora</button>
+        </a>
+      </div>
+      <div class="cardBody3">
+        <figure class="imgContainerx">
+          <img
+            src="https://raw.githubusercontent.com/Maxiferado/IconosGObNorteDeSantader/41362c48ed1530277148db2954070f2a6fb816b1/IconosSvg/nortedesantanderHardBlue.svg"
+            alt="Mapa norte de santander"
+          />
+        </figure>
+        <p class="textoCardInfo">
+          <b>Municipios</b> y <b>Subregiones</b> de Norte de Santander
+        </p>
+        <a class="linksMapas"
+          href="https://signds-oxygeno-sas.hub.arcgis.com/apps/4ce87ba13ba54ec9991a306b91280581/explore"
+        >
+          <button>Explora</button>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
