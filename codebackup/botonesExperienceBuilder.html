@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Experience</title>
+  </head>
+  <style>
+    body {
+      margin: 0;
+      box-sizing: border-box;
+      font-family: "Quicksand", sans-serif;
+    }
+    .masterContinerGaleryf {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      width: 100vw;
+      gap: 25px;
+    }
+    .cardBody2f {
+      width: 400px;
+      height: 400px;
+      background-color: #f47216ff;
+      opacity: 0.8;
+      position: relative;
+      border-radius: 5%;
+      display: flex;
+      flex-direction: column;
+      justify-content: end;
+      border: 1px solid black;
+      box-shadow: 0 4px 2px -2px grey;  
+    }
+    .cardBody2f figure img {
+      position: absolute;
+      width: 400px;
+      top: 0px;
+      object-fit: cover;
+      height: 400px;
+      border-radius: 5%;
+      z-index: -1;
+    }
+    .cardBody2f::after {
+      content: " ";
+      position: absolute;
+      top: 0;
+      right: 0;
+      border-top: 40px solid #f47216ff;
+      border-left: 400px solid transparent;
+      border-radius: 20px 20px 0 0;
+      animation-name: buttonReaction;
+      animation-duration: 1s;
+    }
+    .cardBody3f {
+      width: 400px;
+      height: 400px;
+      background-color: #f47216ff;
+      opacity: 0.8;
+      position: relative;
+      border-radius: 5%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .cardBody3f figure img {
+      position: absolute;
+      width: 400px;
+      top: 0px;
+      object-fit: cover;
+      height: 400px;
+      border-radius: 5%;
+      z-index: -1;
+    }
+    .cardBody3f::after {
+      content: " ";
+      position: absolute;
+      top: 0;
+      right: 0;
+      border-top: 40px solid #2a2e73ff;
+      border-left: 250px solid transparent;
+      border-radius: 0px 10px 0 0;      
+    }
+
+    .textoCardInfof {
+      font-size: 20px;
+      font-weight: bold;
+      margin: 0;
+      text-align: center;
+      color: #fff;
+    }
+    .imgContainerxf {
+      display: flex;
+      justify-content: center;
+    }
+    .cardBody2f button {
+      background-color: #2e3192ff;
+      border: none;
+      color: #fff;
+      font-weight: bold;
+      border-radius: 5px;
+      font-size: 20px;
+      padding: 5px 30px;
+      cursor: pointer;
+    }
+    .cardBody3f button {
+      background-color: #f2581aff;
+      border: none;
+      color: #fff;
+      font-weight: bold;
+      font-size: 20px;
+      border-radius: 5px;
+      padding: 5px 30px;
+      cursor: pointer;
+    }
+    .linksMapasf {
+      display: flex;
+      justify-content: center;
+      margin-top: 5px;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    @keyframes buttonReaction {
+      0% {
+        border-left: 400px solid #f47216ff;
+        border-radius: 20px 20px 20px 20px;
+        height: 0%;
+        animation: ease-in;
+      }
+      1% {
+        height: 1%;
+        border-radius: 20px 20px 20px 20px;
+      }
+      100% {
+        border-left: 400px solid #f47216ff;
+        border-radius: 20px 20px 20px 20px;
+        height: 90%;
+      }
+    }
+  </style>
+  <body>
+    <div class="masterContinerGaleryf">
+      <div class="cardBody2f">
+        <figure class="imgContainerxf">
+          <img
+            src="https://images.pexels.com/photos/974314/pexels-photo-974314.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            ;
+            alt="Mapa norte de santander"
+          />
+        </figure>
+        <p class="textoCardInfof">
+          Conoce los avances del <b>Plan de Desarrollo</b>
+        </p>
+        <a
+          class="linksMapasf"
+          href="https://signds-oxygeno-sas.hub.arcgis.com/apps/2ddef79b5c274c83950379cb45dff97b/explore"
+        >
+          <button>Explora</button>
+        </a>
+      </div>
+      <div class="cardBody3f">
+        <figure class="imgContainerxf">
+          <img
+            src="https://images.pexels.com/photos/2219035/pexels-photo-2219035.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt="Mapa norte de santander"
+          />
+        </figure>
+        <p class="textoCardInfof">
+          <b>Municipios</b> y <b>Subregiones</b> de Norte de Santander
+        </p>
+        <a
+          class="linksMapasf"
+          href="https://signds-oxygeno-sas.hub.arcgis.com/apps/4ce87ba13ba54ec9991a306b91280581/explore"
+        >
+          <button>Explora</button>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
